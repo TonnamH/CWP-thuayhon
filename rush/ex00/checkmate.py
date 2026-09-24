@@ -17,7 +17,7 @@ def checkmate(board):
     # Check if the board is square
     for row in lines:
         if len(row) != size:
-            print(f"Error: board must be square ({size}x{size}), but found a row wit    h length {len(row)}")
+            print(f"Error: board must be square ({size}x{size}), but found a row with length {len(row)}")
             return
 
     # Find King's position and verify there is exactly one King
